@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Session;
 use App\Models\User;
+use Dotenv\Parser\Value;
 use Illuminate\Support\Facades\Auth;
 
 class CustomAuthController extends Controller
@@ -54,6 +55,15 @@ class CustomAuthController extends Controller
 
     public function create(array $data)
     {
+        //tao bien
+        $image = $request->file('photo');
+
+        $image->move('./upload/user_images/', $image->getClientOriginalName());
+        // // // Store the file
+        // // $path = $request->file('photo')->store($store);
+
+        // // Return a response
+        // response()->json(['path' => $path]);
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
