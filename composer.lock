@@ -3635,7 +3635,7 @@
             "description": "Provides a structured process for converting a Request into a Response",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-kernel/tree/v6.2.8"
+                "source": "https://github.com/symfony/http-kernel/tree/v6.2.9"
             },
             "funding": [
                 {
@@ -3651,7 +3651,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-31T12:00:10+00:00"
+            "time": "2023-04-13T16:41:43+00:00"
         },
         {
             "name": "symfony/mailer",
@@ -6385,16 +6385,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "10.0.19",
+            "version": "10.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "20c23e85c86e5c06d63538ba464e8054f4744e62"
+                "reference": "5a477aea03e61329132935689ae2d73f418f5e25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/20c23e85c86e5c06d63538ba464e8054f4744e62",
-                "reference": "20c23e85c86e5c06d63538ba464e8054f4744e62",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/5a477aea03e61329132935689ae2d73f418f5e25",
+                "reference": "5a477aea03e61329132935689ae2d73f418f5e25",
                 "shasum": ""
             },
             "require": {
@@ -6408,7 +6408,7 @@
                 "phar-io/manifest": "^2.0.3",
                 "phar-io/version": "^3.0.2",
                 "php": ">=8.1",
-                "phpunit/php-code-coverage": "^10.0",
+                "phpunit/php-code-coverage": "^10.1",
                 "phpunit/php-file-iterator": "^4.0",
                 "phpunit/php-invoker": "^4.0",
                 "phpunit/php-text-template": "^3.0",
@@ -6434,7 +6434,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "10.0-dev"
+                    "dev-main": "10.1-dev"
                 }
             },
             "autoload": {
@@ -6466,7 +6466,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.0.19"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.1.0"
             },
             "funding": [
                 {
@@ -6482,7 +6482,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-03-27T11:46:33+00:00"
+            "time": "2023-04-14T05:15:09+00:00"
         },
         {
             "name": "sebastian/cli-parser",
